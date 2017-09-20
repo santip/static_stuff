@@ -51,6 +51,12 @@ h1, h2, h3, h4 {
   color: var(--text);
 }
 
+ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply),ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply),ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply),
+#footer,
+.channel_header {
+  box-shadow: inset 1px 0 2px 0 #303036;
+}
+
 .TeamSidebarItem.unreads .TeamSidebarItem-indicator {
    background-color: var(--border-bright) !important;
    opacity: 1;
