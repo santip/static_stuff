@@ -47,6 +47,10 @@ h1, h2, h3, h4 {
    z-index: 1;
 }
 
+.p-channel_sidebar__name {
+  color: var(--text);
+}
+
 .TeamSidebarItem.unreads .TeamSidebarItem-indicator {
    background-color: var(--border-bright) !important;
    opacity: 1;
